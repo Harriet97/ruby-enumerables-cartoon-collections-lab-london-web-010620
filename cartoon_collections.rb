@@ -7,7 +7,7 @@ end
 def summon_captain_planet(array)# code an argument here
   # Your code here
   array.map do |planet|
-  puts "#{planet.capitalize}!"
+  p "#{planet.capitalize}!"
 end
 end
 
